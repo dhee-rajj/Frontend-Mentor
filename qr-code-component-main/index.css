@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: rgb(141, 207, 242);
+    font: "Roboto";
+}
+
+.qr-container {
+    width: 20%;
+    align-self: center;
+    border: 1px solid gray;
+    box-shadow: 1px 1px 4px 3px rgba(0,0,0,0.4);
+    background: white;
+    border-radius: 5%;
+}
+
+img {
+    display: block;
+    width: 90%;
+    margin: 1rem auto;
+    border-radius: 4%;
+}
+
+h2,p {
+    margin: 1rem;
+    font-size: 1.3rem;
+}
+
+p {
+    font-size: 1rem;
+}
